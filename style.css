@@ -1,0 +1,74 @@
+/*Universal Styles*/
+
+body {
+  text-align: center;
+  font-family: arial, helvetica, sans-serif;
+  font-size: 14px;
+}
+
+h1,
+h2,
+h3,
+p.bar {
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 32px;
+}
+
+h3,
+p.bar {
+  font-size: 23px;
+}
+
+h1,
+li a,
+p.bar,
+footer {
+  color: white;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+li a {
+  font-size: 18px;
+}
+
+/*Header Styles*/
+header {
+  background: url(images/building.png) no-repeat;
+
+}
+
+h1 {
+  font-size: 70px;
+}
+
+header ul {
+  margin-top: -10px;
+}
+
+header li a {
+  line-height: 1.8;
+  display: inline-block;
+}
+
+/* Process Styles */
+p.bar {
+  background: url(images/building.png) no-repeat;
+}
+
+/* Footer Styles */
+footer {
+  background-color: dimgray;
+  text-align: left;
+  font-size: 11px;
+}
+
+footer ul, footer ul li{
+  display: inline;
+}
